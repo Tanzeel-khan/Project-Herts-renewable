@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
+    <title>HERTS RENEWABLE</title>
+</head>
+<body>
+
+  <header class="header-area">
+    <div class="container">
+    <div class="icons-left">
+        <a><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        <a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+    </div>
+    <div class="icons-right">
+        <a href="#" class="open-button" role="button" onclick="openForm()"><i class="fa fa-user" aria-hidden="true"></i></a>
+        
+          <a href="#" class="tooltip"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <div class="tooltiptext">
+            <h3>TOTAL <span>PKR 0</span></h3> <br>
+            <button type="button" class="btn btn-success bt-c">CHECK OUT</button>
+          </div>
+        </a>
+        <a><i class="fa fa-truck" aria-hidden="true"></i></a>
+    </div>
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <button onclick="opencart()" type="submit" class="btn">LOGIN</button>
+        <button onclick="opencart()" type="submit" class="btn">SIGN UP</button>
+        <i  onclick="closeForm()" class="fa fa-times myicon" aria-hidden="true"></i>
+      </form>
+    </div>
+    </div>
+</header>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="logo" src="./images/logoPng1Asset 15.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html"><i class="fa fa-map-pin" aria-hidden="true"></i>ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html"><i class="fa fa-location-arrow" aria-hidden="true"></i>OUR SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html"><i class="fa fa-product-hunt" aria-hidden="true"></i>PRODUCTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html"><i class="fa fa-trophy" aria-hidden="true"></i>PROJECTS</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="buyonline.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>BUY ONLINE</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fa fa-address-book" aria-hidden="true"></i>CONTACT US</a>
+        </li>
+        <li class="nav-item">
+              
+          <div class="searchBox">
+            <input class="searchInput"type="text" name="" placeholder="Search">
+              <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        </li>
+    </ul>
+  </div>
+  </div>
+    </nav>
+    <div class="s-content2 animate__animated animate__fadeInUp">
+      <h2 class="s-h2">THE FUTURE LIES NOT IN OUR STARS BUT IN OUR SUN,</h2>
+      <h2 class="s-h2"> WE ARE DEVELOPING THE SOLAR OF THE FUTURE</h2>
+      <button type="button" class="btn btn-success">FIND MORE ></button>
+  </div>
+          <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 ab-sl" src="./images/download.jpeg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 ab-sl" src="./images/download.jpeg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 ab-sl" src="./images/download.jpeg" alt="Third slide">
+              </div>
+            </div>
+           
+          </div>
+    <section class="sec9">
+      <div class="container ">
+       
+        <div class="animate__animated animate__fadeInUp animate__delay-1s">
+          <h2 class="s2-h2 mt-5">OUR PRODUCTS</h2>
+        </div>
+        
+        <div class="row">
+
+            <div class="col-lg-12">
+
+
+                <ul class="filters text-center">
+                    <li class="active bt" data-filter="*"><a href="#!">All</a></li>
+                    <li class="bt" data-filter=".html"><a href="#!">MIG/MAG</a></li>
+                    <li class="bt" data-filter=".css"><a href="#!">TIG</a></li>
+                    <li class="bt" data-filter=".javascript"><a href="#!">MMA</a></li>
+                    <li class="bt" data-filter=".multi"><a href="#!">MULTI PROCESS</a></li>
+                </ul>
+                <div class="projects">
+
+                        <div class="row item html">
+                            <div  class="col-sm-4 col-md-4 col-lg-4 mt-5 mb-5 animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                              <h5 class="ft-h5 mb-3" style="color: #3fa9f5;">MIG/MAG</h5>
+                              <p class="ft-para" style="color: black;">Due to its wide range of applications, 
+                                MIG/MAG welding is the most commonly used welding process in the world. Fronius 
+                                offers its customers an extensive portfolio of MIG/MAG power sources 
+                                for all kinds of requirements.</p> 
+                            </div>
+                            <div  class="col-sm-8 col-md-8 col-lg-8 mt-5 mb-5 animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                              <div class="row">
+                                <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                <img class="mt-15 mb-2 p-logo" src="./images/M-70820.png"> 
+                              <a href="#" class="but2">TPSI</a>  
+                            </div>
+                            </div>
+                            <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                  <img class="mt-15 mb-2 p-logo" src="./images/M-70324.png"> 
+                               
+                                <a href="#" class="but2">TRANSSTEEL</a>  
+                              </div>
+                          </div>
+                          <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                            <div class=" card2 text-center  mb-30 bg-white p-30">
+                                <img class="mt-15 mb-2 p-logo" src="./images/M-70275.png"> 
+                              
+                              <a href="#" class="but2">MIGMAG WELDING TORCHES</a>  
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                          <div class=" card2 text-center  mb-30 bg-white p-30">
+                              <img class="mt-15 mb-2 p-logo" src="./images/M-131815.png"> 
+                            <a href="#" class="but2">ACCUPOCKET TIG</a>  
+                          </div>
+                      </div>
+                            </div>
+                            </div>
+                          </div>
+                        
+                          <div class="row item css">
+                            <div  class="col-sm-4 col-md-4 col-lg-4 mt-5 mb-5 animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                              <h5 class="ft-h5 mb-3" style="color: #3fa9f5;">TIG</h5>
+                              <p class="ft-para" style="color: black;">TIG welding is predominantly used for thin and 
+                                medium material thicknesses and promises maximum quality. 
+                                Whether on the production line or for mobile applications,
+                                 Fronius has the right solution for the perfect weld seam.</p> 
+                            </div>
+                            <div  class="col-sm-8 col-md-8 col-lg-8 mt-5 mb-5 animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                              <div class="row">
+                                <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                <img class="mt-15 mb-2 p-logo" src="./images/M-70820.png"> 
+                              
+                              <a href="#" class="but2">TRANSTIG</a>  
+                            </div>
+                            </div>
+                            <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                  <img class="mt-15 mb-2 p-logo" src="./images/M-70324.png"> 
+                               
+                                <a href="#" class="but2">TRANSPOCKET TIG</a>  
+                              </div>
+                          </div>
+                          <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                            <div class=" card2 text-center  mb-30 bg-white p-30">
+                                <img class="mt-15 mb-2 p-logo" src="./images/M-70275.png"> 
+                             
+                              <a href="#" class="but2">ACCUPOCKET TIG</a>  
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                          <div class=" card2 text-center  mb-30 bg-white p-30">
+                              <img class="mt-15 mb-2 p-logo" src="./images/M-131815.png"> 
+                          
+                            <a href="#" class="but2">TIG WELDING TORCHES</a>  
+                          </div>
+                      </div>
+                            </div>
+                            <div class="row mt-3">
+                              <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                                <div class=" card2 text-center  mb-30 bg-white p-30">
+                                    <img class="mt-15 mb-2 p-logo" src="./images/M-133432.png"> 
+                                  <a href="#" class="but2">MAGICWAVE</a>  
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                  <img class="mt-15 mb-2 p-logo" src="./images/M-133915.png"> 
+                                <a href="#" class="but2">TIGMULTILOCK TORCHBODIES</a>  
+                              </div>
+                          </div>
+                              </div>
+                            </div>
+                          </div>
+                        
+                          <div class="row item javascript">
+                            <div  class="col-sm-4 col-md-4 col-lg-4 mt-5 mb-5 animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                              <h5 class="ft-h5 mb-3" style="color: #3fa9f5;">MMA</h5>
+                              <p class="ft-para" style="color: black;">MMA welding is ideal for almost all metals
+                                and can be used outside or even underwater, yielding good results. Fronius offers suitable devices 
+                                for both commercial and private users.
+                                 TIG welding can also be performed with most of our MMA welding systems. </p> 
+                            </div>
+                            <div  class="col-sm-8 col-md-8 col-lg-8 mt-5 mb-5 animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                              <div class="row">
+                                <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                <img class="mt-15 mb-2 p-logo" src="./images/M-70275.png"> 
+                              <a href="#" class="but2">TRANSPOCKET</a>  
+                            </div>
+                            </div>
+                            <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                  <img class="mt-15 mb-2 p-logo" src="./images/M-70324.png"> 
+                                <a href="#" class="but2">ACCUPOCKET</a>  
+                              </div>
+                          </div>
+                          <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                            <div class=" card2 text-center  mb-30 bg-white p-30">
+                                <img class="mt-15 mb-2 p-logo" src="./images/M-70820.png"> 
+                              <a href="#" class="but2">MAGICWAVE</a>  
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                          <div class=" card2 text-center  mb-30 bg-white p-30">
+                              <img class="mt-15 mb-2 p-logo" src="./images/M-131815.png"> 
+                            <a href="#" class="but2">TRANSSTEEL</a>  
+                          </div>
+                      </div>
+                            </div>
+                            </div>
+                          </div>
+
+                          <div class="row item multi">
+                            <div  class="col-sm-4 col-md-4 col-lg-4 mt-5 mb-5 animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                              <h5 class="ft-h5 mb-3" style="color: #3fa9f5;">MULTIPROCESS</h5>
+                              <p class="ft-para" style="color: black;">Multiprocess welding systems from Fronius: 
+                                These machines are versatile and cover a wide range of applications,
+                                be it TIG, MIG/MAG or SMAW welding.</p> 
+                            </div>
+                            <div  class="col-sm-8 col-md-8 col-lg-8 mt-5 mb-5 animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                              <div class="row">
+                                <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                <img class="mt-15 mb-2 p-logo" src="./images/M-131815.png"> 
+                              <a href="#" class="but2">TRANSSTEEL</a>  
+                            </div>
+                            </div>
+                            <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                              <div class=" card2 text-center  mb-30 bg-white p-30">
+                                  <img class="mt-15 mb-2 p-logo" src="./images/M-70275.png"> 
+                                <a href="#" class="but2">TRANSTIG</a>  
+                              </div>
+                          </div>
+                          <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                            <div class=" card2 text-center  mb-30 bg-white p-30">
+                                <img class="mt-15 mb-2 p-logo" src="./images/M-133432.png"> 
+                              <a href="#" class="but2">MAGICWAVE</a>  
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-lg-3 col-md-3">
+                          <div class=" card2 text-center  mb-30 bg-white p-30">
+                              <img class="mt-15 mb-2 p-logo" src="./images/M-133915.png"> 
+                            <a href="#" class="but2">TRANSPOCKET</a>  
+                          </div>
+                      </div>
+                            </div>
+                            </div>
+                          </div>
+                        
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+        <section class="sec6">
+            <span class="line"></span>
+            <div class="container mycontainer">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 pt-5 animate__animated animate__fadeInLeft animate__delay-5s animate__slower">
+                  <h5 class="ft-h5" >WE ARE DESIGNING THE FUTURE WITH 100% RENEWABLES</h5>
+                  <p class="ft-para">Our mission is to achieve 24 hours of sun. Day after day, we are
+                    hard at work turning this vision of a future in which 100% of the
+                    world’s energy needs are covered by renewable sources into a
+                    reality. We are therefore concentrating on solutions to intelli-
+                    gently, efficiently and economically generate, store, distribute
+                    and consume solar energy.</p> 
+                    <p class="ft-green">Our vision 24 hours of sun</p>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2 pt-5">
+                    <img class="ft-1" src="./images/3.JPG">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 pt-5 animate__animated animate__fadeInLeft animate__delay-5s animate__slower">
+                <h5 class="ft-h5">HERTS RENEWABLE ENERGY SOLUTIONS LTD</h5>
+                <br>
+                <p class="ft-para">MACLAURIN BUILDING, 4 BISHOPS SQUARE
+                    HATFIELD BUSINESS PARK, HATFIELD, AL10 9NE</p>
+                    <br>
+                <p class="ft-green">info@hrenergysolutions.co.uk</p>
+                </div>
+            </div>
+            </section>
+            <footer class="ft">
+              <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 pt-5">
+                      <h6 class="ft-h6 pb-3">HERTS RENEWABLE ENERGY SOLUTIONS LTD</h6>
+                      <a class="ft-a pb-2">About HR Energy</a> <br>
+                      <a class="ft-a pb-2">Contact</a>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 pt-5">
+                        <h6 class="ft-h6 pb-3">PERFECT WELDING</h6>
+                        <a class="ft-a pb-2">About Perfect Welding</a><br>
+                        <a class="ft-a pb-2">World of welding</a><br>
+                        <a class="ft-a pb-2">Products & Services</a><br>
+                        <a class="ft-a pb-2">Digital Solutions</a><br>
+                        <a class="ft-a pb-2">Info Center</a><br>
+                        <a class="ft-a pb-2">Newsletter</a><br>
+                        <a class="ft-a pb-2">Contact</a>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 pt-5">
+                        <h6 class="ft-h6 pb-3">SOLAR ENERGY</h6>
+                        <a class="ft-a pb-2">Our Vision</a><br>
+                        <a class="ft-a pb-2">Our Expertise</a><br>
+                        <a class="ft-a pb-2">Products & Solutions</a><br>
+                        <a class="ft-a pb-2">Info Center</a><br>
+                        <a class="ft-a pb-2">Contact</a><br>
+                        <a class="ft-a pb-2">Newsletter</a>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 pt-5">
+                        <h6 class="ft-h6 pb-3">PERFECT CHARGING</h6>
+                        <a class="ft-a pb-2">About Perfect Charging</a><br>
+                        <a class="ft-a pb-2">Intralogistics</a><br>
+                        <a class="ft-a pb-2">Car Workshop Equipment</a><br>
+                        <a class="ft-a pb-2">Products & Solutions</a><br>
+                        <a class="ft-a pb-2">Contact</a>
+                    </div>
+                </div>
+              </div>
+            </footer>
+            <div class="copywrite-area">
+              <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 pt-3">
+                      <p class="ft-para">© 2020 HERTS RENEWABLE ENERGY SOLUTION LTD</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 pt-3">
+                        <a class="ft-a2" href="#">Imprint |</a>
+                        <a href="#" class="ft-a2">Terms and Conditions |</a>
+                        <a href="#" class="ft-a2">Data privacy statement |</a>
+                        <a href="#" class="ft-a2">Cookie Policy</a>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2">
+                      <div class="pt-2">
+                        <a><i class="fa fa-google-plus f-2" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-twitter f-2" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-linkedin-square f-2" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-facebook f-2" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-pinterest-p f-2" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <script src="./bootstrap/js/jquery.js"></script>
+            <script src="./bootstrap/js/bootstrap.min.js"></script>
+            <script src="./js/isotope.min.js"></script>
+             <script src="./js/script.js"></script>  
+             <script src="./js/navbar.js"></script>
+            <script>
+                function openForm() {
+                  document.getElementById("myForm").style.display = "block";
+                }
+                
+                function closeForm() {
+                  document.getElementById("myForm").style.display = "none";
+                }
+                function opencart(){
+                      location.href=window.open('cart.html');
+                  }
+                </script>
+ </body>
+ </html>
